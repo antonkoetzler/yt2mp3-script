@@ -22,8 +22,8 @@ A Windows/Linux friendly executable that converts a YouTube link into an MP3. Ma
 - Click "New" on the left and add the directory to yt2mp3-script (examples: C:/yt2mp3-script or C:/Users/$USER/yt2mp3-script
 
 # Installing on Linux (compiling from source)
-1. Install ffmpeg: sudo pacman -S ffmpeg
+1. Install dependencies: `sudo pacman -S ffmpeg youtube-dl base-devel`
 2. `git clone https://github.com/antonkoetzler/yt2mp3-script.git; cd yt2mp3-script; g++ yt2mp3.cpp -o yt2mp3`
-3. Add the directory as a path
+3. Move the executable anywhere and add the directory as a path
 - vim ~/.bashrc
-- Add `export PATH="$HOME/yt2mp3-script:$PATH"`
+- Add `export PATH="$HOME/.local/bin/:$PATH"`
