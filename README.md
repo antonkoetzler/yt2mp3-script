@@ -3,9 +3,10 @@ A Windows/Linux friendly executable that converts a YouTube link into an MP3. Ma
 
 # Installing on Windows
 1. Install ffmpeg: https://www.geeksforgeeks.org/how-to-install-ffmpeg-on-windows/
-2. Go to https://github.com/antonkoetzler/yt2mp3-script/releases/tag/1.0 and download yt2mp3-script-windows.zip
-3. Extract yt2mp3-script-windows.zip into desired directory (examples: C:/ or C:/Users/$USER/)
-4. Add this directory as an environment variable
+2. If you get a "MSVCR100.dll missing" error, install vcredist_x86.exe here: https://www.microsoft.com/en-ca/download/details.aspx?id=26999
+3. Go to https://github.com/antonkoetzler/yt2mp3-script/releases/tag/1.0 and download yt2mp3-script-windows.zip
+4. Extract yt2mp3-script-windows.zip into desired directory (examples: C:/ or C:/Users/$USER/)
+5. Add this directory as an environment variable
 - Open windows settings
 
 ![image](https://user-images.githubusercontent.com/66643637/169671768-2074b618-d2b4-4cf5-b7fc-f655ecddfbad.png)
